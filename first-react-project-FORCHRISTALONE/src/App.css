@@ -1,0 +1,75 @@
+/* ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+/* BY GOD'S GRACE ALONE */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: #352e40;
+    
+}
+
+nav > img {
+    width : 70px;
+}
+
+.gtljcHeaderNavBar{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    gap: 10px;
+    height: 100%;
+    padding-left: 90px;
+}
+
+header{
+    height: 120px;
+}
+
+nav > span {
+    color : #61DAFB;
+    font-size: 2.4rem;
+    font-weight: 700
+}
+
+main > h1 {
+    font-size : 5.7rem;
+    background-color:transparent
+}
+
+main{
+    padding-left: 50px;
+    padding-top: 100px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgb(0,0,0, 0.85)), url("./assets/react.svg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100%,1300px;
+    background-position: center center, right center;
+    
+    
+}
+
+main ul{
+    margin-top: 70px;
+    padding-left: 90px;
+    background: transparent;
+    
+}
+
+main li{
+    list-style-type: disc;
+    font-size: 2.7rem;
+    word-spacing: 1vh;
+    letter-spacing: 0.2vh;
+    line-height: 6vh;
+    width: auto;
+    background: transparent;
+}
+
+main li::marker{
+    color : #61DAFB;
+    font-size : 3rem;
+
+}
