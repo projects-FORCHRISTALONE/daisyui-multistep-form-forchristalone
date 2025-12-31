@@ -5,7 +5,9 @@ const App = () => {
     return(
         <>
             <div>The Lord is good always to me</div>
-            <MultistepForm />
+            <MultistepForm 
+                dummyProp = {""}
+            />
         </>
     )
 }
